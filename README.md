@@ -9,7 +9,7 @@ We expect services to run in protected, non visible networks, whilst internet - 
 You may implement the tasks using the following approaches:
 
 * manual set up with AWS console
-* Ansible scripts
+* Ansible/Puppet/Chef scripts
 * AWS SDK, or implementation thereof such as boto3
 * Terraform
 * CloudFormation
