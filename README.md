@@ -15,7 +15,7 @@ You may implement the tasks using the following approaches:
 * CloudFormation
 
 You may use pre-existing code base from your own projects, as long as you have ownership/authorship. We will not retain a copy, 
-but we need to understand what the code does during the pairing execise to asses the value of your work.
+but we need to understand what the code does during the pairing execise to asses the merits of your work.
 
 ## Task specifics
 
@@ -28,3 +28,13 @@ or deploy a docker container as provided from https://hub.docker.com/r/jenkins/j
 4. Create an ALB configuration that point to your Jenkins instance 
 5. Limit access to your Jenkins from outside to the service ports and SSH.
 6. Configure your Jenkins running instance (EC2 or ECS) to only accept SSH connections from your bastion hosts.
+
+## Acceptance
+
+We will verify the follwing outcomes:
+* The VPC has the desired strcuture
+* We can connect to the bastion host(s) with a provided SSH key
+* We can point a browser to provided URL and see the jenkins page, as served by an LB within the VPC.
+* We can connect from the bastion host to the instance serving jenkins with our key via SSH
+* The bastion host(s) is/are secure
+* The Jenkins serving instance is secure
