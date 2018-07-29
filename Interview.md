@@ -1,6 +1,7 @@
 ## Questions:
 
-1. ```
+1. 
+```
 Q: What is an ELF file?
 A: Unix executable file format (Executable and Linkeable Format), common exec file for linux.
 ```
