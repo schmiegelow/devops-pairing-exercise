@@ -1,7 +1,7 @@
 ## Questions:
 
-1. Q: What is an ELF file?
-A: Unix executable file format (Executable and Linkeable Format), common exec file for linux.
+1. ```Q: What is an ELF file?
+A: Unix executable file format (Executable and Linkeable Format), common exec file for linux.```
 
 2. Q: How do you query the type of a cpu using cat?
 A: cat /proc/cpuinfo
