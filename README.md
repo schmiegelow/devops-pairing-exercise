@@ -19,7 +19,7 @@ but we need to understand what the code does during the pairing execise to asses
 
 ## Task specifics
 
-1. Create a VPC with two AZs. The VPC should implement the concept of redundant DMZs, i.e. mirroring across AZs.
+1. Create a VPC with two AZs. The VPC should support the DMZ concept and as well service HA - configuration, i.e. service mirroring across AZs.
 2. Implement a secure bastion host with an ELB. The bastion host(s) should be HA and offer SSH access through the ELB. 
 The instances should be secured, i.e. should not reside in DMZ (public) subnets. The bastion hosts should define dedicated security groups 
 that limit access to and from the bastion hosts.
