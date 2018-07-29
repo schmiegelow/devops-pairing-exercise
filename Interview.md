@@ -29,7 +29,8 @@ A: 65534.
 6: 
 ```
 Q: What does NAT stand for and when is  it used?
-A: Network Address Translation. A NAT Gateway is a host that bridges connectivity between a private network and the outside networks.
+A: Network Address Translation. A NAT Gateway is a host that bridges connectivity between a private network 
+and the outside networks.
 ```
 7: 
 ```
